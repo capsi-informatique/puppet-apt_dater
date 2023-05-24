@@ -1,0 +1,44 @@
+{
+  "name": "capsi-apt_dater",
+  "version": "1.0.0",
+  "author": "CAPSI Informatique",
+  "summary": "Manage the `apt-dater` and `apt-dater-host` package and configuration files",
+  "license": "Apache-2.0",
+  "source": "https://github.com/capsi-informatique/puppet-apt_dater",
+  "dependencies": [
+    {
+      "name": "ianoberst-xml_fragment",
+      "version_requirement": ">= 1.0.4 < 2.0.0"
+    },
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0 < 7.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "10",
+        "11"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04",
+        "20.04",
+        "22.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.21.0 < 8.0.0"
+    }
+  ],
+  "pdk-version": "2.5.0",
+  "template-url": "pdk-default#2.5.0",
+  "template-ref": "tags/2.5.0-0-g369d483"
+}
