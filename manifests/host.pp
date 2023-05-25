@@ -43,5 +43,8 @@ define apt_dater::host (
         'ssh-id'   => $identity,
       },
     },
+    require => [
+      Xml_fragment["${apt_dater::config_host_path}:Group - ${group}"],
+    ],
   }
 }

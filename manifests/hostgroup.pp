@@ -20,5 +20,8 @@ define apt_dater::hostgroup (
         'ssh-user' => $user,
       },
     },
+    require => [
+      Xml_fragment["${config_host_path}:Hosts"],
+    ],
   }
 }

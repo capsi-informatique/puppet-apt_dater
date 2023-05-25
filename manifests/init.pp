@@ -73,7 +73,7 @@ class apt_dater (
         Package['apt-dater'],
       ],
     }
-    -> Apt_dater::Hostgroup <<| tag == $collect_tag |>>
-    -> Apt_dater::Host <<| tag == $collect_tag |>>
+    Apt_dater::Hostgroup <<| tag == $collect_tag |>>
+    Apt_dater::Host <<| tag == $collect_tag |>>
   }
 }
