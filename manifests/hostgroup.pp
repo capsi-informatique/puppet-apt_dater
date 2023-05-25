@@ -21,7 +21,7 @@ define apt_dater::hostgroup (
       },
     },
     require => [
-      Xml_fragment["${config_host_path}:Hosts"],
+      Xml_fragment["${apt_dater::config_host_path}:Hosts"],
     ],
   }
 }
