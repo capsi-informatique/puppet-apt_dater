@@ -5,6 +5,8 @@
   "summary": "Manage the `apt-dater` and `apt-dater-host` package and configuration files",
   "license": "Apache-2.0",
   "source": "https://github.com/capsi-informatique/puppet-apt_dater",
+  "project_page": "https://github.com/capsi-informatique/puppet-apt_dater",
+  "issues_url": "https://github.com/capsi-informatique/puppet-apt_dater/issues",
   "dependencies": [
     {
       "name": "ianoberst-xml_fragment",
