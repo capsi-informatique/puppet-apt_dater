@@ -1,6 +1,6 @@
 {
   "name": "capsi-apt_dater",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "CAPSI Informatique",
   "summary": "Manage the `apt-dater` and `apt-dater-host` package and configuration files",
   "license": "Apache-2.0",
